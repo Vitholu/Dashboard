@@ -115,7 +115,61 @@ body {
 
 .profile {
 	box-sizing: content-box;
-	background-color: #38465a;
+	background-color: #0f172a;
 	padding: 1.5rem;
 	border-radius: 100%;
+}
+
+.big > img {
+	width: 4.5rem;
+}
+
+.section2-left-side {
+	display: flex;
+	flex: 1;
+	align-items: center;
+}
+
+.big {
+	padding-left: 5.8rem;
+}
+
+.left-text {
+	color: white;
+	font-size: 20px;
+}
+
+.left-text.O1 {
+	font-size: 14px;
+}
+
+.text-wrapper-sec2 > p {
+	padding: 0.8rem;
+}
+
+.section2-right-side {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	flex: 1;
+}
+
+.button-right-side {
+	width: 12rem;
+	height: 4rem;
+	border: none;
+	font-size: 1.7rem;
+	border-radius: 2rem;
+	color: white;
+	font-weight: bolder;
+	background-color: #3a485c;
+}
+
+.section2-top-wrapper {
+}
+
+.border-bot-pad {
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #cbd5e1;
 }
