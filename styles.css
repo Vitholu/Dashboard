@@ -72,3 +72,50 @@ body {
 .section1-bottom-wrapper {
 	margin-top: 5rem;
 }
+
+.search-bar-wrapper {
+	display: flex;
+	align-items: center;
+	height: 8.3rem;
+	gap: 1.6rem;
+	flex: 5;
+}
+
+.search-bar {
+	background-color: #64748b;
+	border-radius: 1.5rem;
+	padding: 15px;
+	height: 35px;
+	width: 100%;
+}
+
+.user-information-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	flex: 2;
+}
+
+.user-text > h2 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.user-logo > img {
+	width: 30px;
+}
+
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.profile {
+	box-sizing: content-box;
+	background-color: #38465a;
+	padding: 1.5rem;
+	border-radius: 100%;
+}
