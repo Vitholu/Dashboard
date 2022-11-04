@@ -265,3 +265,48 @@ h3.title {
 .rot {
 	rotate: 270deg;
 }
+
+.s2-right-side > .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 4rem;
+	padding-top: 4rem;
+	width: 80%;
+	border: 0rem solid white;
+	height: 36.6%;
+	margin-left: 2rem;
+}
+
+.bottom-pad {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom: 1px solid #64748b;
+}
+
+.t,
+.b,
+.m {
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+.topc,
+.midc,
+.botc {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+}
+
+.bold {
+	font-weight: bolder;
+}
+
+.trending {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
